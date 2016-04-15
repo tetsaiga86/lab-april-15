@@ -5,6 +5,7 @@ function sum(numOne, numTwo){
   p1.textContent = '"The sum of ' + numOne + ' and ' + numTwo + ' is ' + sum + '."';
   return sum;
 }
+// Beauty is in the eye of the beholder, and I behold this beauty.
 
 function multiply(numOne, numTwo){
   var product = numOne * numTwo;
@@ -13,6 +14,7 @@ function multiply(numOne, numTwo){
   p2.textContent = '"The product of ' + numOne + ' and ' + numTwo + ' is ' + product + '."';
   return product;
 }
+// Just an image of perfection.
 
 function sumAndMultiply(numOne, numTwo, numThree){
   var x = sum(sum(numOne, numTwo), numThree);
@@ -22,6 +24,7 @@ function sumAndMultiply(numOne, numTwo, numThree){
   p31.textContent = '"' + numOne + ' and ' + numTwo + ' and ' + numThree + ' sum to ' + x;
   p32.textContent = '"The numbers ' + numOne + ' and ' + numTwo + ' and ' + numThree + ' have a product of ' + y + '"';
 }
+// This looks remarkably similar to the the letters I typed in my javascript. Weird.
 
 function sumArray(adding){
   var sum = (adding[0] + adding[1] + adding[2]);
@@ -29,6 +32,7 @@ function sumArray(adding){
   console.table(adding);
   p4.textContent = '"' + adding[0] + ',' + adding[1] + ',' + adding[2] + ' was passed in as an array of numbers, and ' + sum + ' is their sum."';
 }
+// Great parameter name.
 
 function multiplyArray(m){
   var mul = (m[0], m[1], m[2]);
@@ -36,3 +40,4 @@ function multiplyArray(m){
   console.table(m);
   p5.textContent = '"The numbers ' + m[0] + ', ' + m[1] + ', ' + m[2] + ' have a product of ' + mul + '."';
 }
+// Even better parameter name.
