@@ -22,3 +22,9 @@ function sumArray(adding){
   console.table(adding);
   console.log('"' + adding[0] + ',' + adding[1] + ',' + adding[2] + ' was passed in as an array of numbers, and ' + sum + ' is their sum."');
 }
+
+function multiplyArray(m){
+  var mul = (m[0], m[1], m[2]);
+  console.table(m);
+  console.log('"The numbers ' + m[0] + ', ' + m[1] + ', ' + m[2] + ' have a product of ' + mul + '."');
+}
