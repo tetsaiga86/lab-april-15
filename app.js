@@ -16,3 +16,9 @@ function sumAndMultiply(numOne, numTwo, numThree){
   console.log('"' + numOne + ' and ' + numTwo + ' and ' + numThree + ' sum to ' + x);
   console.log('"The numbers ' + numOne + ' and ' + numTwo + ' and ' + numThree + ' have a product of ' + y + '"');
 }
+
+function sumArray(adding){
+  var sum = (adding[0] + adding[1] + adding[2]);
+  console.table(adding);
+  console.log('"' + adding[0] + ',' + adding[1] + ',' + adding[2] + ' was passed in as an array of numbers, and ' + sum + ' is their sum."');
+}
